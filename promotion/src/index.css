@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Eland";
+  src: local("Eland"),
+    url("./component/assets/Font/Eland.ttf") format("truetype"),
+    url("./component/assets/Font/Eland.otf") format("opentype")
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Eland" !important;
+}
