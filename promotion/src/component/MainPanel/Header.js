@@ -4,58 +4,50 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'; // 풀페이지용 ㄸ
 
 const Header = () => {
     const HeaderContainer = styled.div`
-        width:100%;
         height:60px;
         display: flex;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-color: black;
-        border-bottom: 1px solid white;
-        margin-bottom: 1rem;
+        background-color: #000;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
         position: fixed;
         top: 0;
-        z-index: 2;
+        left: 0;
+        right: 0;
+        z-index: 1000;
     `;
 
     const HeaderNav = styled.div`
-        width: 80%;
-        margin: 0 auto;
         display: flex;
+        padding: 0 20px;
         justify-content: space-between;
-        font-size: 1em;
+        flex: 1;
     `;
 
     // Page 이동 - 라이브러리
     const HeaderNavItem = styled(AnchorLink)`
+        color: #fff;
+        font-size: 20px;
         text-decoration: none;
-    `;
-    
 
-    const HeaderNavText = styled.div`
-        display: flex;
-        height: 100%;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        color: white;
+        & + & {
+            margin-left: 10px;
+        }
+
+        @media screen and (min-width: 768px) {
+            & + & {
+                margin-left: 20px;
+            }
+        }
     `;
 
     return (
         <HeaderContainer>
             <HeaderNav>
-                <HeaderNavItem href="#About">
-                    <HeaderNavText>LikeLion</HeaderNavText>
-                </HeaderNavItem>
-                <HeaderNavItem href="#Curriculum">
-                    <HeaderNavText>커리큘럼</HeaderNavText>
-                </HeaderNavItem>
-                <HeaderNavItem href="#Recruit">
-                    <HeaderNavText>지원하기</HeaderNavText>
-                </HeaderNavItem>
-                <HeaderNavItem href="#SNS">
-                    <HeaderNavText>SNS</HeaderNavText>
-                </HeaderNavItem>
+                <HeaderNavItem href="#About" style={{marginRight: 'auto'}}>LikeLion</HeaderNavItem>
+                <HeaderNavItem href="#Curriculum">커리큘럼</HeaderNavItem>
+                <HeaderNavItem href="#Recruit">지원하기</HeaderNavItem>
+                <HeaderNavItem href="#SNS">SNS</HeaderNavItem>
             </HeaderNav>
         </HeaderContainer>
     );

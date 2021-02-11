@@ -17,10 +17,7 @@ html{
 	position: relative;
 	overflow: hidden;
 }
-a, a:visited, a:link {
-	text-decoration: none;
-	color: grey;
-}
+
 h1.main, p.demos {
 	-webkit-animation-delay: 18s;
 	-moz-animation-delay: 18s;
