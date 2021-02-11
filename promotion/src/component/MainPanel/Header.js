@@ -15,6 +15,7 @@ const Header = () => {
         position: fixed;
         top: 0;
         z-index: 2;
+
     `;
 
     const HeaderNav = styled.div`
@@ -22,11 +23,13 @@ const Header = () => {
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+        font-size: 1em;
     `;
 
     // Page 이동 - 라이브러리
     const HeaderNavItem = styled(AnchorLink)`
         padding: 0px 10px;
+        text-decoration: none;
     `;
     
 

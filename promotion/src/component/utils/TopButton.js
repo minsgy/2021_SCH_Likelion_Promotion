@@ -21,7 +21,7 @@ const TopButton = () => {
     `;
 
     return (
-        <TopButtonLink href="#top">
+        <TopButtonLink href="#About">
             <TopButtonDiv>
                 Top
             </TopButtonDiv>

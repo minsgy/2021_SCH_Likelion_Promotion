@@ -1,5 +1,4 @@
 import React from 'react';
-import Promotion from './CenterPanel/Promotion';
 import styled from "styled-components";
 import About from './CenterPanel/About';
 import Curriculum from './CenterPanel/Curriculum';
@@ -15,9 +14,6 @@ const Center = () => {
 
     return (
         <>
-        <CenterContainer id="top">
-            <Promotion />
-        </CenterContainer>
         <CenterContainer id="About">
             <About />
         </CenterContainer>

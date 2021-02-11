@@ -5,7 +5,6 @@ import {
   Redirect
 } from "react-router-dom"
 import MainPage from './component/MainPage';
-import TopButton from './component/utils/TopButton';
 const App = () => {
   return (
     <>
@@ -14,7 +13,6 @@ const App = () => {
       <Route exact path='/' component={MainPage} />
       <Redirect from='*' to='/' />
     </Switch>
-    <TopButton />
     </>
   );
 }
