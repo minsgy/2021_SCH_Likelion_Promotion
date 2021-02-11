@@ -80,6 +80,7 @@ const About = () => {
         }
 
         svg {
+            margin-right: 4px;
             vertical-align: top;
         }
 
