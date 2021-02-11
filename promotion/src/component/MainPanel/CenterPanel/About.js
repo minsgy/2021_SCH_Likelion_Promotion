@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {FaAward} from "react-icons/fa";
+import {FaTrophy} from "react-icons/fa";
 
 
 const About = () => {
@@ -126,8 +126,8 @@ const About = () => {
                     </ItemHistory>
                     <ItemHistory className="award">
                         <InnerHistory>
-                            <TitleHistory><FaAward/>수상 테스트</TitleHistory>
-                            <DescHistory>수상 내역은 ItemHistory 컴포넌트에 award클래스, FaAward 컴포넌트를 추가해서 표시</DescHistory>
+                            <TitleHistory><FaTrophy/>수상 테스트</TitleHistory>
+                            <DescHistory>수상 내역은 ItemHistory 컴포넌트에 award클래스, FaTrophy 컴포넌트를 추가해서 표시</DescHistory>
                         </InnerHistory>
                     </ItemHistory>
                     <ItemHistory>
