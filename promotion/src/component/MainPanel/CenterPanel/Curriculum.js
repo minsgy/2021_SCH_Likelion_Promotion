@@ -19,7 +19,7 @@ const Curriculum = () => {
     const ListItemStep = styled.li`
         flex-basis: 50%;
 
-        @media screen and (max-width: 768px) {
+        @media screen and (min-width: 768px) {
             flex-basis: 33.33%;
         }
     `;
@@ -28,10 +28,20 @@ const Curriculum = () => {
         padding: 10px;
         color: #fff;
         text-align: center;
+
+        @media screen and (min-width: 768px) {
+            padding: 20px;
+        }
     `;
 
     const BoxThumb = styled.div`
         position: relative;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.3);
+        content: '';
         font-size: 40px;
 
         svg {
@@ -41,14 +51,15 @@ const Curriculum = () => {
             transform: translateX(-20px);
         }
 
-        &::before {
-            display: block;
-            margin: 0 auto;
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background-color: rgba(255, 255, 255, 0.3);
-            content: '';
+        @media screen and (min-width: 768px) {
+            width: 140px;
+            height: 140px;
+            font-size: 60px;
+
+            svg {
+                top: 40px;
+                transform: translateX(-30px);
+            }
         }
     `;
 
@@ -56,22 +67,38 @@ const Curriculum = () => {
         display: block;
         margin-top: 8px;
         font-size: 16px;
-        font-weight: 500;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 12px;
+            font-size: 20px;
+        }
     `;
 
     const KeywordStep = styled.span`
         display: inline-block;
         padding: 4px;
         margin-top: 4px;
-        background-color: #034B61;
+        background-color: #00a0b6;
         font-size: 8px;
-        font-weight: 500;
+        vertical-align: top;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 6px;
+            padding: 4px 8px;
+            font-size: 14px;
+        }
     `;
 
     const DescStep = styled.p`
         margin-top: 4px;
         font-size: 12px;
+        line-height: 18px;
         color: rgba(255, 255, 255, 0.8);
+
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            line-height: 20px;
+        }
     `;
 
     return (
