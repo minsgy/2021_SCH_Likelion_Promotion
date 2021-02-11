@@ -5,17 +5,17 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'; // 풀페이지용 ㄸ
 const Header = () => {
     const HeaderContainer = styled.div`
         width:100%;
-        height:80px;
+        height:60px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        border-bottom: 1px solid black;
-        margin-bottom: 2rem;
+        background-color: black;
+        border-bottom: 1px solid white;
+        margin-bottom: 1rem;
         position: fixed;
         top: 0;
         z-index: 2;
-
     `;
 
     const HeaderNav = styled.div`
@@ -28,7 +28,6 @@ const Header = () => {
 
     // Page 이동 - 라이브러리
     const HeaderNavItem = styled(AnchorLink)`
-        padding: 0px 10px;
         text-decoration: none;
     `;
     
@@ -39,19 +38,20 @@ const Header = () => {
         width: 100%;
         justify-content: center;
         align-items: center;
+        color: white;
     `;
 
     return (
         <HeaderContainer>
             <HeaderNav>
                 <HeaderNavItem href="#About">
-                    <HeaderNavText>About</HeaderNavText>
+                    <HeaderNavText>LikeLion</HeaderNavText>
                 </HeaderNavItem>
                 <HeaderNavItem href="#Curriculum">
-                    <HeaderNavText>Curriculum</HeaderNavText>
+                    <HeaderNavText>커리큘럼</HeaderNavText>
                 </HeaderNavItem>
                 <HeaderNavItem href="#Recruit">
-                    <HeaderNavText>Recruit</HeaderNavText>
+                    <HeaderNavText>지원하기</HeaderNavText>
                 </HeaderNavItem>
                 <HeaderNavItem href="#SNS">
                     <HeaderNavText>SNS</HeaderNavText>

@@ -10,6 +10,7 @@ const Center = () => {
         height: 100vh;
         justify-content: center;
         align-items: center;
+        background-color: black;
     `;
 
     return (

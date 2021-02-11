@@ -1,10 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const About = () => {
+    
+    const AboutContainer = styled.div`
+        
+    `;
+
+
     return (
-        <div>
+        <AboutContainer>
             소개파트
-        </div>
+        </AboutContainer>
     );
 }
 
