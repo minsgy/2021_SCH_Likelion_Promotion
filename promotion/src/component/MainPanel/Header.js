@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import AnchorLink from 'react-anchor-link-smooth-scroll'; // 풀페이지용 ㄸ
-
+import LogoImage from '../assets/Image/logo.png';
 const Header = () => {
     const HeaderContainer = styled.div`
         height:60px;
@@ -54,6 +54,7 @@ const Header = () => {
 
     return (
         <HeaderContainer>
+
             <HeaderNav>
                 <HeaderNavItem href="#About" style={{marginRight: 'auto'}}>LIKELION</HeaderNavItem>
                 <HeaderNavItem href="#History">8기 연혁</HeaderNavItem>
