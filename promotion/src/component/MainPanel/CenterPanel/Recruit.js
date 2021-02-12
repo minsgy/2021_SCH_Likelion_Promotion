@@ -1,11 +1,22 @@
-import React from 'react';
+import React from "react";
+import styled from 'styled-components';
+
+const LinkRecruit = styled.a`
+
+`;
+
+const LinkInnerRecruit = styled.strong`
+
+`;
 
 const Recruit = () => {
     return (
-        <div>
-            지원안내
-        </div>
-    );
-}
+        <>
+            <LinkRecruit>
+                <LinkInnerRecruit>아기사자 지원하기</LinkInnerRecruit>
+            </LinkRecruit>
+        </>
+    )
+};
 
 export default Recruit;
