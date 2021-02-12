@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/2020_SCH_Likelion_Promotion/static/css/main.6e66886d.chunk.css",
-    "main.js": "/2020_SCH_Likelion_Promotion/static/js/main.4fe0946c.chunk.js",
-    "main.js.map": "/2020_SCH_Likelion_Promotion/static/js/main.4fe0946c.chunk.js.map",
+    "main.js": "/2020_SCH_Likelion_Promotion/static/js/main.3fd16380.chunk.js",
+    "main.js.map": "/2020_SCH_Likelion_Promotion/static/js/main.3fd16380.chunk.js.map",
     "runtime-main.js": "/2020_SCH_Likelion_Promotion/static/js/runtime-main.8661678a.js",
     "runtime-main.js.map": "/2020_SCH_Likelion_Promotion/static/js/runtime-main.8661678a.js.map",
     "static/js/2.d403e258.chunk.js": "/2020_SCH_Likelion_Promotion/static/js/2.d403e258.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.8661678a.js",
     "static/js/2.d403e258.chunk.js",
     "static/css/main.6e66886d.chunk.css",
-    "static/js/main.4fe0946c.chunk.js"
+    "static/js/main.3fd16380.chunk.js"
   ]
 }
