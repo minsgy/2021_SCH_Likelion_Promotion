@@ -2,11 +2,12 @@ import React, {useState} from 'react';
 
 import Center from './MainPanel/Center';
 import Footer from './MainPanel/Footer';
-import Header from './MainPanel/Header';
 import Promotion from './PromotionPanel/Promotion';
 import TopButton from './utils/TopButton';
 
 import './assets/Css/Main.css';
+import './assets/Css/SideMenu.css';
+import SideMenu from './SidePanel/SideMenu';
 
 
 
@@ -26,7 +27,8 @@ const MainPage = () => {
             />
             </div> :
             <div class="Main">
-                <Header />
+                <SideMenu />
+   
                 <Center />
                 <Footer />
                 <TopButton/>

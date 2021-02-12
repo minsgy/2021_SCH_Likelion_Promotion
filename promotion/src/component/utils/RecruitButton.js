@@ -7,7 +7,7 @@ const RecruitButton = () => {
         width: 220px;
         height: 70px;
         margin: 0 auto;
-        background: linear-gradient(120deg, #6559ae, #ff7159, #6559ae);
+        background: linear-gradient(120deg, #ff9424, #ffdb25, #ff9f36);
         background-size: 400% 400%;
         color: #fff;
         text-align: center;
@@ -17,21 +17,25 @@ const RecruitButton = () => {
         border-radius: 50px;
 
         @media screen and (max-width: 370px) {
-            font-size: 25px;
             width: 200px;
+            height: 40px;
+            line-height: 40px;
         }
     `;
 
     const RecruitText = styled.span`
         color: white;
         font-size: 28px;
+        text-shadow: 1px 2px 3px #000;
         @media screen and (max-width: 370px) {
-            font-size: 25px;
-            text-shadow: 1px 1px 1px #000;
+            font-size: 15px;
         }
     `;
+       
     return (
-        <RecruitLink href="https://github.com/minsgy" className="RecruitButton">
+        <RecruitLink onClick={()=>{
+            alert("2. 22. 부터 링크가 오픈 될 예정 입니다. ")
+        }}className="RecruitButton">
             <RecruitText>지원하기</RecruitText>
         </RecruitLink>
     );

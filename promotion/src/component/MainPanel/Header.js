@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
 import AnchorLink from 'react-anchor-link-smooth-scroll'; // 풀페이지용 ㄸ
-import RecruitButton from '../utils/RecruitButton';
 
 const Header = () => {
     const HeaderContainer = styled.div`
@@ -16,6 +15,10 @@ const Header = () => {
         right: 0;
         z-index: 1000;
         text-shadow: 1px 2px 3px #000;
+
+        @media screen and (max-width: 768px) {
+            display:none;
+        }
     `;
 
     const HeaderNav = styled.div`
@@ -23,6 +26,9 @@ const Header = () => {
         padding: 0 20px;
         justify-content: space-between;
         flex: 1;
+        @media screen and (max-width: 768px) {
+            display:none;
+        }
     `;
 
     // Page 이동 - 라이브러리
@@ -50,6 +56,7 @@ const Header = () => {
         <HeaderContainer>
             <HeaderNav>
                 <HeaderNavItem href="#About" style={{marginRight: 'auto'}}>LIKELION</HeaderNavItem>
+                <HeaderNavItem href="#History">8기 연혁</HeaderNavItem>
                 <HeaderNavItem href="#Curriculum">커리큘럼</HeaderNavItem>
                 <HeaderNavItem href="#Recruit">지원하기</HeaderNavItem>
                 <HeaderNavItem href="#SNS">SNS</HeaderNavItem>

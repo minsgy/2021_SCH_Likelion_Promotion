@@ -77,7 +77,7 @@ const Curriculum = () => {
         display: inline-block;
         padding: 4px;
         margin-top: 4px;
-        background-color: #F39926;
+        background-color: #1BBCF0;
         font-size: 8px;
         vertical-align: top;
 

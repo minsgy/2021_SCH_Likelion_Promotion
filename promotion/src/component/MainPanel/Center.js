@@ -12,10 +12,10 @@ const Center = () => {
         height: 100vh;
         justify-content: center;
         align-items: center;
-        &#About{
-            padding-top: 80px;
+        
+        &#History{
+            height: 110vh;
         }
-      
     `;
 
     const CenterDisplay = styled.div`
