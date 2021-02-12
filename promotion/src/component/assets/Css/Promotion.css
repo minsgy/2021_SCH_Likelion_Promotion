@@ -65,6 +65,7 @@ h1.main, p.demos {
 	-moz-animation: blurFadeInOut 3s ease-in backwards;
 	-ms-animation: blurFadeInOut 3s ease-in backwards;
 	animation: blurFadeInOut 3s ease-in backwards;
+	
 }
 
 .sp-container h2.frame-1 {
@@ -100,7 +101,7 @@ h1.main, p.demos {
 	-moz-animation: none;
 	-ms-animation: none;
 	animation: none;
-	color: transparent;
+	color: white;
 	text-shadow: 0px 0px 1px #fff;
 }
 
@@ -109,19 +110,21 @@ h1.main, p.demos {
 	-moz-animation: blurFadeIn 1s ease-in 12s backwards;
 	-ms-animation: blurFadeIn 3s ease-in 12s backwards;
 	animation: blurFadeIn 3s ease-in 12s backwards;
-	text-shadow: 0px 0px 1px #fff;
+	text-shadow: 1px 2px 3px #000;
 }
 .sp-container h2.frame-5 span:nth-child(2) {
 	-webkit-animation-delay: 13s;
 	-moz-animation-delay: 13s;
 	-ms-animation-delay: 13s;
 	animation-delay: 13s;
+	text-shadow: 1px 2px 3px #000;
 }
 .sp-container h2.frame-5 span:nth-child(3) {
 	-webkit-animation-delay: 14s;
 	-moz-animation-delay: 14s;
 	-ms-animation-delay: 14s;
 	animation-delay: 14s;
+	text-shadow: 1px 2px 3px #000;
 }
 
 .sp-container h2.frame-5 span:nth-child(4) {
@@ -134,7 +137,7 @@ h1.main, p.demos {
     bottom:0;
     right:0;
     margin: 2vh 10vw;
-
+    text-shadow: 1px 2px 3px #000;
     display: flex;
     align-items: center;
 }
@@ -372,4 +375,83 @@ h1.main, p.demos {
 		opacity: 1;
 		transform: scale(1) rotate(0deg);
 	}
+}
+
+/* Recruit button */
+
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+/* motion */
+@-moz-keyframes gradient {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 14% 0%;
+  }
+  50% {
+    background-position: 87% 100%;
+  }
+  100% {
+    background-position: 14% 0%;
+  }
+}
+@-moz-keyframes border {
+  0% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 216px 66px, 216px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 0% 100%);
+  }
+}
+@-webkit-keyframes border {
+  0% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 216px 66px, 216px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 0% 100%);
+  }
+}
+@keyframes border {
+  0% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 4px 66px, 4px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 66px, 216px 66px, 216px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 216px 4px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 4px 100%, 0% 100%);
+  }
 }

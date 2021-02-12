@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FcAdvance} from "react-icons/fc";
+import {IoIosArrowForward} from "react-icons/io";
 import '../assets/Css/Promotion.css';
 
 const Promotion = (props) => {
@@ -23,7 +23,7 @@ const Promotion = (props) => {
                         <span>멋쟁이사자처럼 at SCH</span>
                         <span>9기 아기사자 모집</span>
                         <span>02. 22. ~ 03. 03. PM 10:00</span> 
-                        <span onClick={handleRedirect}>이동하기<FcAdvance size={'75px'}/></span>
+                        <span onClick={handleRedirect}>이동하기<IoIosArrowForward color={'white'}size={'30px'}/></span>
                     </h2>
                 </div>
             </div>

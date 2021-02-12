@@ -5,8 +5,8 @@ const TopButton = () => {
             <ScrollUpButton
             style={{
                 fill: "white",
-                backgroundColor: 'black',
-                bottom: 100
+                backgroundColor: 'transparent',
+                bottom: 70
             }}>
             </ScrollUpButton>
     );

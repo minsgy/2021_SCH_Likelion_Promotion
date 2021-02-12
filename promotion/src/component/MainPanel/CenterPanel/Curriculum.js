@@ -1,10 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import {FaHtml5} from "react-icons/fa";
-import {RiPagesFill, RiUserVoiceFill} from "react-icons/ri"
-import {SiDjango} from "react-icons/si"
-
-
+import {RiPagesFill, RiUserVoiceFill, RiTeamFill} from "react-icons/ri"
+import {SiDjango} from "react-icons/si";
+import {VscGlobe} from "react-icons/vsc";
 const Curriculum = () => {
 
     const WrapList = styled.div`
@@ -37,8 +36,8 @@ const Curriculum = () => {
     const BoxThumb = styled.div`
         position: relative;
         margin: 0 auto;
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         background-color: rgba(255, 255, 255, 0.3);
         content: '';
@@ -46,7 +45,7 @@ const Curriculum = () => {
 
         svg {
             position: absolute;
-            top: 30px;
+            top: 10px;
             left: 50%;
             transform: translateX(-20px);
         }
@@ -67,7 +66,7 @@ const Curriculum = () => {
         display: block;
         margin-top: 8px;
         font-size: 16px;
-
+        text-shadow: 1px 2px 3px #000;
         @media screen and (min-width: 768px) {
             margin-top: 12px;
             font-size: 20px;
@@ -78,7 +77,7 @@ const Curriculum = () => {
         display: inline-block;
         padding: 4px;
         margin-top: 4px;
-        background-color: #00a0b6;
+        background-color: #F39926;
         font-size: 8px;
         vertical-align: top;
 
@@ -94,7 +93,7 @@ const Curriculum = () => {
         font-size: 12px;
         line-height: 18px;
         color: rgba(255, 255, 255, 0.8);
-
+        text-shadow: 1px 2px 3px #000;
         @media screen and (min-width: 768px) {
             font-size: 16px;
             line-height: 20px;
@@ -108,40 +107,40 @@ const Curriculum = () => {
                     <ListItemStep>
                         <InnerStep>
                             <BoxThumb><RiPagesFill/></BoxThumb>
-                            <TitleStep>UX/UI설계</TitleStep>
-                            <KeywordStep>UI/UX</KeywordStep>
+                            <TitleStep>아이디어설계</TitleStep>
+                            <KeywordStep>IDEA</KeywordStep>
                             <DescStep>
-                                다양한 UI/UX 기법을 활용해 본인이 만들고 싶은 서비스를 기획
+                                팀을 구성해, 본인이 만들고 싶은 서비스 기획
                             </DescStep>
                         </InnerStep>
                     </ListItemStep>
                     <ListItemStep>
                         <InnerStep>
                             <BoxThumb><FaHtml5/></BoxThumb>
-                            <TitleStep>Front-End 구현</TitleStep>
-                            <KeywordStep>HTML/CSS</KeywordStep>
+                            <TitleStep>Front-End</TitleStep>
+                            <KeywordStep>HTML/CSS/JS</KeywordStep>
                             <DescStep>
-                                HTML, CSS를 활용해 웹서비스의 화면을 구현
+                                HTML, CSS, JS를 활용해 웹서비스의 화면을 구현
                             </DescStep>
                         </InnerStep>
                     </ListItemStep>
                     <ListItemStep>
                         <InnerStep>
                             <BoxThumb><SiDjango/></BoxThumb>
-                            <TitleStep>Back-End 구현</TitleStep>
+                            <TitleStep>Back-End</TitleStep>
                             <KeywordStep>PYTHON/DJANGO</KeywordStep>
                             <DescStep>
-                                Python 기반 Full-Stack Framework 인 Django를 활용해 웹서비스 동작 구현
+                                Python기반 웹프레임워크 Django를 이용한 서버 구현
                             </DescStep>
                         </InnerStep>
                     </ListItemStep>
                     <ListItemStep>
                         <InnerStep>
-                            <BoxThumb><RiUserVoiceFill/></BoxThumb>
-                            <TitleStep>프로젝트 발표</TitleStep>
+                            <BoxThumb><RiTeamFill/></BoxThumb>
+                            <TitleStep>해커톤 대회</TitleStep>
                             <KeywordStep>HACKATHON</KeywordStep>
                             <DescStep>
-                                Python 기반 Full-Stack Framework 인 Django를 활용해 웹서비스 동작 구현
+                            앞서 배운 기술 스택을 가지고 기획한 서비스를 구현 
                             </DescStep>
                         </InnerStep>
                     </ListItemStep>
@@ -149,19 +148,19 @@ const Curriculum = () => {
                         <InnerStep>
                             <BoxThumb><RiUserVoiceFill/></BoxThumb>
                             <TitleStep>컨퍼런스</TitleStep>
-                            <KeywordStep>FINAL PROJECT</KeywordStep>
+                            <KeywordStep>CONFERENCE</KeywordStep>
                             <DescStep>
-                                다음 기수를 위한 최종 프로젝트 진행(유지보수 및 추가 기능 개발)
+                                외부인사 및 멋사 OB 초청 강연
                             </DescStep>
                         </InnerStep>
                     </ListItemStep>
                     <ListItemStep>
                         <InnerStep>
-                            <BoxThumb><RiUserVoiceFill/></BoxThumb>
+                            <BoxThumb><VscGlobe/></BoxThumb>
                             <TitleStep>최종 프로젝트</TitleStep>
                             <KeywordStep>FINAL PROJECT</KeywordStep>
                             <DescStep>
-                                다음 기수를 위한 최종 프로젝트 진행(유지보수 및 추가 기능 개발)
+                                다음 기수를 위한 최종 프로젝트 진행
                             </DescStep>
                         </InnerStep>
                     </ListItemStep>

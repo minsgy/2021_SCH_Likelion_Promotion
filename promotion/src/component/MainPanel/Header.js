@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import AnchorLink from 'react-anchor-link-smooth-scroll'; // 풀페이지용 ㄸ
+import RecruitButton from '../utils/RecruitButton';
 
 const Header = () => {
     const HeaderContainer = styled.div`
@@ -8,13 +9,13 @@ const Header = () => {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #000;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+        background-color: rgba(0, 0, 0, 0.3);
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         z-index: 1000;
+        text-shadow: 1px 2px 3px #000;
     `;
 
     const HeaderNav = styled.div`
@@ -30,6 +31,10 @@ const Header = () => {
         font-size: 20px;
         text-decoration: none;
 
+        &:hover{
+            color: #fad207;
+        }
+
         & + & {
             margin-left: 10px;
         }
@@ -44,7 +49,7 @@ const Header = () => {
     return (
         <HeaderContainer>
             <HeaderNav>
-                <HeaderNavItem href="#About" style={{marginRight: 'auto'}}>LikeLion</HeaderNavItem>
+                <HeaderNavItem href="#About" style={{marginRight: 'auto'}}>LIKELION</HeaderNavItem>
                 <HeaderNavItem href="#Curriculum">커리큘럼</HeaderNavItem>
                 <HeaderNavItem href="#Recruit">지원하기</HeaderNavItem>
                 <HeaderNavItem href="#SNS">SNS</HeaderNavItem>
