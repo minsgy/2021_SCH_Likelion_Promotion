@@ -5,7 +5,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={"/2020_SCH_Likelion_Promotion"}>
     <App />
   </BrowserRouter>
   ,
