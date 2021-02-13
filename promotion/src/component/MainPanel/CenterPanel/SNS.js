@@ -23,7 +23,7 @@ const Desc = styled.p`
     text-shadow: 1px 2px 3px #000;
     margin-top: 8px;
     font-size: 25px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.9);
     @media screen and (max-width: 768px) {
         font-size: 20px;
     }

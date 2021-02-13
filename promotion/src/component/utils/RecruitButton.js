@@ -16,7 +16,7 @@ const RecruitButton = () => {
         animation: gradient 3s ease-in-out infinite;
         border-radius: 50px;
 
-        @media screen and (max-width: 370px) {
+        @media screen and (max-width: 400px) {
             width: 200px;
             height: 40px;
             line-height: 40px;
@@ -27,7 +27,7 @@ const RecruitButton = () => {
         color: white;
         font-size: 28px;
         text-shadow: 1px 2px 3px #000;
-        @media screen and (max-width: 370px) {
+        @media screen and (max-width: 400px) {
             font-size: 15px;
         }
     `;

@@ -89,7 +89,7 @@ const History = () => {
         font-size: 14px;
         color: rgba(255, 255, 255, 0.8);
 
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 768px) {
             display: none;
         }
     `;

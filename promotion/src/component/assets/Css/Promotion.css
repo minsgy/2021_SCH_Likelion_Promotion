@@ -1,7 +1,9 @@
 html{
     font-size: 50px;
 }
-
+a:focus{
+	outline : none;
+  }
 .Promotion {
 	background: #310404 url(../Image/likelion-background.png) no-repeat center center fixed; 
 	-webkit-background-size: cover;
@@ -111,6 +113,8 @@ h1.main, p.demos {
 	-ms-animation: blurFadeIn 3s ease-in 12s backwards;
 	animation: blurFadeIn 3s ease-in 12s backwards;
 	text-shadow: 1px 2px 3px #000;
+	height: 60px;
+	line-height: 60px;
 }
 .sp-container h2.frame-5 span:nth-child(2) {
 	-webkit-animation-delay: 13s;
@@ -134,17 +138,20 @@ h1.main, p.demos {
 	animation-delay: 15s;
     font-size: 0.5rem;
     position: fixed;
-    bottom:0;
-    right:0;
-    margin: 2vh 10vw;
+    bottom:25%;
+    right:10%;
     text-shadow: 1px 2px 3px #000;
     display: flex;
     align-items: center;
 }
 
+.sp-container h2.frame-5 span:nth-child(4):hover{
+	color: #fad207;
+}
+
 @media all and (max-width: 768px){
     .sp-container {min-width: 375px;}
-    .sp-container h2{font-size: 0.5rem;}
+    .sp-container h2{font-size: 0.55rem;}
     .sp-container h2.frame-1{font-size: 0.75rem;}
     .sp-container h2.frame-2{font-size: 0.75rem;}
     .sp-container h2.frame-3{font-size: 0.75rem;}

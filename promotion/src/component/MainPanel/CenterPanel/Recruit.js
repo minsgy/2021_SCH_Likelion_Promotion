@@ -8,7 +8,7 @@ const RecruitContainer = styled.div`
 `;
 
 const RecruitWrapWanted = styled.div`
-        margin-bottom: 4vh;
+        margin-bottom: 7vh;
 `;
 
 const RecruitTitle = styled.h2`
@@ -60,7 +60,7 @@ const SubmitDescription = styled.span`
         display: block;
         text-align: center;
         text-shadow: 1px 2px 3px #000;
-        margin-bottom: 3vh;   
+        margin-bottom: 1vh;   
         font-size: 14px; 
     @media screen and (max-width: 768px) {
         font-size: 12px;

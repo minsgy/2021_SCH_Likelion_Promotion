@@ -24,7 +24,7 @@ const About = () => {
     text-shadow: 1px 2px 3px #000;
     margin-bottom: 1em;
     font-size: 50px;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 600px) {
             font-size: 30px;
         }
     `;
@@ -33,8 +33,8 @@ const About = () => {
     margin-bottom: 0.5em;
     text-shadow: 1px 2px 3px #000;
     font-size: 30px;
-        @media screen and (max-width: 768px) {
-            font-size: 15px;
+        @media screen and (max-width: 600px) {
+            font-size: 20px;
             margin-bottom: 0.5em;
         }
     `;
@@ -43,7 +43,7 @@ const About = () => {
     margin-bottom: 0.5em;
     font-size: 15px;
     color: rgb(255,255,255,0.8);
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 600px) {
             display:none;
         }
     `;
@@ -74,7 +74,8 @@ const About = () => {
                     </AboutSubText>
                 </AboutTextWrap>
                 
-            </AboutWrapContent>   
+            </AboutWrapContent>
+               
         </AboutContainer>
     );
 }
