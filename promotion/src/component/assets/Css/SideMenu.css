@@ -70,11 +70,11 @@
 
   @media all and (max-width: 765px){
     .bm-menu{
-      font-size: 15px;
+      font-size: 18px;
       padding: 5em 10px;
     }
     .bm-menu-wrap{
-      width: 150px !important;
+      width: 170px !important;
     }
     .bm-burger-button {
       position: fixed;
@@ -87,7 +87,7 @@
 
   @media all and (max-width: 385px){
     .bm-menu{
-      font-size: 13px;
+      font-size: 15px;
       padding: 5em 10px;
     }
     .bm-menu-wrap{
