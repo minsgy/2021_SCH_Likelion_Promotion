@@ -87,11 +87,11 @@
 
   @media all and (max-width: 385px){
     .bm-menu{
-      font-size: 10px;
+      font-size: 13px;
       padding: 5em 10px;
     }
     .bm-menu-wrap{
-      width: 100px !important;
+      width: 130px !important;
     }
     .bm-burger-button {
       position: fixed;

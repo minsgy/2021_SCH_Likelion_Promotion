@@ -16,6 +16,10 @@ const RecruitTitle = styled.h2`
     text-shadow: 1px 2px 1px #000;
     margin-bottom: 2vh;
     font-size: 30px;
+    svg{
+        vertical-align: top;
+        margin-right: 1vw;
+    }
     @media screen and (max-width: 768px) {
         font-size: 24px;
     }
@@ -41,10 +45,6 @@ const RecruitWantedItem = styled.li`
         svg{ 
             color: #F6BB43;
         }
-    }
-    svg{
-        margin-right: 2vw;
-
     }
 
     @media screen and (max-width: 768px) {
@@ -72,7 +72,7 @@ const Recruit = () => {
         <RecruitContainer>
             {/* 인재상 */}
             <RecruitWrapWanted>
-                <RecruitTitle><FaCheck size={'22px'} color={'green'}/> 어떤 사람을 원하나요?</RecruitTitle>
+                <RecruitTitle><FaCheck color={'green'}/> 어떤 사람을 원하나요?</RecruitTitle>
                 <RecruitWantedList>
                     <RecruitWantedItem className="check">- 웹 서비스 개발에 관심 있는 분</RecruitWantedItem>
                     <RecruitWantedItem className="check">- 협업과 네트워킹이 잘 되시는 분</RecruitWantedItem>
@@ -84,7 +84,7 @@ const Recruit = () => {
             </RecruitWrapWanted>
             {/* 이런분은.. 저랑 안맞아용.. ㅠ */}
             <RecruitWrapWanted>
-                <RecruitTitle><GoX size={'25px'}color={'red'}/>이런 분은 저희와 맞지 않아요..</RecruitTitle>
+                <RecruitTitle><GoX color={'red'}/>이런 분은 저희와 맞지 않아요..</RecruitTitle>
                 <RecruitWantedList>
                     <RecruitWantedItem className="sorry">- 할 일이 많고 시간이 없으신 분</RecruitWantedItem>
                     <RecruitWantedItem className="sorry">- 개인적인 목적 달성</RecruitWantedItem>
