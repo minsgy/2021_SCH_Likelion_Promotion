@@ -31,11 +31,11 @@
 
 ### 📃 PROMOTION PAGE
 
-<img src="./ExampleGIF/promotion-page.gif" width="600px">
+<img src="./ExampleGIF/promotion-page.gif" width="400px">
 
 ### 🖥 MAIN - DESKTOP
 
-<img src="./ExampleGIF/main-pc.gif" width="600px">
+<img src="./ExampleGIF/main-pc.gif" width="400px">
 
 ### 📱 MOBILE - DESKTOP
 
