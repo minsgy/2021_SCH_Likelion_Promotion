@@ -37,6 +37,6 @@
 
 <img src="./ExampleGIF/main-pc.gif" width="400px">
 
-### 📱 MOBILE - DESKTOP
+### 📱 MAIN - MOBILE
 
 <img src="./ExampleGIF/main-mobile.gif" height="500px">
