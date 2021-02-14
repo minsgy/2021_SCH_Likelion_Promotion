@@ -34,7 +34,7 @@ const RecruitButton = () => {
        
     return (
         <RecruitLink onClick={()=>{
-            alert("2월 22일 부터 사이트가 공개 됩니다. ")
+            alert("2월 22일부터 지원 사이트가 공개 됩니다. ")
         }}className="RecruitButton">
             <RecruitText>지원하기</RecruitText>
         </RecruitLink>
