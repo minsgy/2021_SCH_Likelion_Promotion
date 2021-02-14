@@ -9,15 +9,15 @@ const Wrap = styled.div`
     text-align: center;
 `;
 
-const Title = styled.strong`
-    text-shadow: 1px 2px 3px #000;
-    font-size: 40px;
-    color: #fff;
+// const Title = styled.strong`
+//     text-shadow: 1px 2px 3px #000;
+//     font-size: 40px;
+//     color: #fff;
     
-    @media screen and (max-width: 768px) {
-        font-size: 20px;
-    }
-`;
+//     @media screen and (max-width: 768px) {
+//         font-size: 20px;
+//     }
+// `;
 
 const Desc = styled.p`
     text-shadow: 1px 2px 3px #000;

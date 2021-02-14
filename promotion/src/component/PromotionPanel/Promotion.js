@@ -15,10 +15,10 @@ const Promotion = (props) => {
             <div class="sp-container">
                 <div class="sp-content">
                     <div class="sp-globe"></div>
-                    <h2 class="frame-1">멋쟁이 사자처럼 ?</h2>
-                    <h2 class="frame-2">아이디어 많아?</h2>
-                    <h2 class="frame-3">열정 가득 <br/>유노윤호야?</h2>
-                    <h2 class="frame-4">그렇다면 잘 왔어</h2>
+                    <h2 class="frame-1">세상을 바꿀 <br/>아이디어가 있나요?</h2>
+                    <h2 class="frame-2">열정과 시간만 가져오세요.</h2>
+                    <h2 class="frame-3">도전합시다.</h2>
+                    <h2 class="frame-4">멋쟁이 사자처럼.</h2>
                     <h2 class="frame-5">
                         <span>멋쟁이사자처럼 at SCH</span>
                         <span>9기 아기사자 모집</span>
