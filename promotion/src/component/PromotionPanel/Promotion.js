@@ -17,7 +17,7 @@ const Promotion = (props) => {
                     <div class="sp-globe"></div>
                     <h2 class="frame-1">세상을 바꿀 <br/>아이디어가 있나요?</h2>
                     <h2 class="frame-2">열정과 시간만<br/>가져오세요.</h2>
-                    <h2 class="frame-3">도전합니다.</h2>
+                    <h2 class="frame-3">도전합시다.</h2>
                     <h2 class="frame-4">멋쟁이 사자처럼.</h2>
                     <h2 class="frame-5">
                         <span>멋쟁이사자처럼 at SCH</span>
