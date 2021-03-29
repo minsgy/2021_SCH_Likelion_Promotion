@@ -17,7 +17,7 @@
 ## 👨🏻‍💻 제작자
 
 - 순천향대 컴퓨터소프트웨어공학과 16학번 최민석
-- LIKELION at 9th SCH 대표 / 8th 교육운영진
+- LIKELION at 9th SCH 대표 / 8th 교육 운영진 
 
 
 
