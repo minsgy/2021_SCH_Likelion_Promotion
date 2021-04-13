@@ -10,6 +10,7 @@
 ## 🔨 기술 스택
 
 - ⚛️ ReactJS
+- HTML/CSS
 - Git Deploy
 - Styled-Components
 
